@@ -146,6 +146,7 @@ public class Utility {
             case "a" -> makeAMove(n, m, array);
             case "s" -> makeSMove(n, m, array);
             case "d" -> makeDMove(n, m, array);
+            default -> System.out.println("Incorrect input");
         }
 
 
